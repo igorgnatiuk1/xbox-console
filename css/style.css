@@ -1,0 +1,292 @@
+a{
+    text-decoration: none;
+}
+img{
+    display: inline-block;
+}
+body{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #435766;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* /============= Header ============/ */
+header{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background: #373A3C;
+    display: flex;
+}
+header div{
+    display: flex;
+}
+.header-item{
+    margin-right: 43px;
+}
+.header-logo{
+    margin-right: 650px;
+
+}
+    
+
+.header-list{
+    display: flex;
+    list-style: none;
+}
+.header-item a, .logo{
+    color: rgba(255, 255, 255, 0.5);
+}
+.header-item a:hover, .logo:hover{
+    color: #8DD83D;}
+.input{
+        width: 210px;
+        height: 38px;
+        padding-left: 16px;
+    }
+    form{
+        margin-right: 52px;
+    }
+    /*/============Main============/*/
+    h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: #ffffff;
+    margin-bottom: 134px;
+    padding-left: 830px;
+    }
+    h1 span{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1.15;
+    }
+    .hero-item{
+    list-style: none;
+    padding: 18px 30px;
+    background-color: #8dd83d;
+    border-radius: 4px;
+    color: #ffffff;
+    }
+    .hero-list{
+        display: flex;
+        padding-left: 830px;
+    }
+    .hero-item:first-child{
+        margin-right: 13px;
+    }
+    .hero-item:last-child{
+    background-color: gray;
+    }
+    .hero-item a{
+        color: #fff;
+    }
+    .hero{
+    /* background-color: blue; */
+    background-image: url(../images/Star-Wars-Battlefront-II-combat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 205px;
+    padding-bottom: 205px;
+    }
+    .value{
+        background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+        padding-top: 144px;
+        padding-bottom: 162px;
+        text-align: center;
+        
+    }
+    
+    .value-list{
+        list-style: none;
+        display: flex;
+        padding-left: 161px;
+        
+    }
+    .h2{
+        
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 1.15;
+        color: #fff;
+        margin-bottom: 43px;
+     }
+        
+    .h2 span{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1.15;
+    }
+    .value-img{
+        
+        margin-bottom: 18px;
+    }
+    .value-item{
+        width: 320px;
+        background: #FFFFFF;
+        border: 1px solid #8DD83D;
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-right: 64px;
+    }
+    .card{
+        padding: 24px;
+        
+    }
+    .card p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.15;
+        margin-bottom: 16px;
+    }
+    .card h3{
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 1.15;
+        margin-bottom: 38px;
+    }
+    .card button{
+        width: 270px;
+        height: 60px;
+        background-color: #8dd83d;
+        border-radius: 4px;
+        
+    }
+    .mixer{
+        padding: 62px 0 55px 54px;
+    }
+    .games{
+        padding: 33px 59px;
+    }
+   .exclusive-h2{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.15;
+    color: #fff;
+    margin-bottom: 54px;
+
+   }
+   .exclusive{
+       padding-top: 97px;
+       background: rgba(23, 23, 23, 0.5);
+       background-image: linear-gradient(rgba(23, 23, 23, 0.5),rgba(23, 23, 23, 0.5)), url(../images/Rectangle.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       padding-bottom: 140px;
+       text-align: center;
+   }
+   .exclusive-item{
+       display: flex;
+       padding-left: 161px;
+       margin-bottom: 74px;
+       
+   }
+   .exclusive-list{
+       list-style: none;
+       width: 318px;
+        background: #FFFFFF;
+        border: 1px solid #8DD83D;
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-right: 64px;
+   }
+   .exclusive-list img{
+       height: 180px;
+       background-repeat: no-repeat;
+   }
+   .bt{
+       
+       padding: 15px 47px;
+       background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+       border-radius: 4px;
+       color: #fff;
+       align-items: center;
+       
+   }
+   .design-item{
+       list-style: none;
+   }
+   .design-h2{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.15;
+    padding-left: 167px;
+    color: #fff;
+    margin-bottom: 9px; 
+   }
+   .design{
+       background-color: #8dd83d;
+
+       background-image:radial-gradient(100% 100% at 50% 0%, rgba(193, 255, 127, 0.1) 0%, rgba(141, 216, 61, 0.1) 100%), url(../images/Rectangle\ \(1\).jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       padding-top: 114px;
+       padding-bottom: 145px;
+   }
+   .design-p{
+    padding-left: 167px;
+    font-weight: 400;
+        font-size: 20px;
+        line-height: 1.15;
+        margin-bottom: 37px;
+        color: #FFF;
+   }
+   .design-item{
+    padding-left: 167px;
+    display: flex;
+   }
+   .bt-1{
+    padding: 20px 55px;
+    background-color: gray;
+    color: #fff;
+    border-radius: 4px;
+   }
+   .bt-2{
+    padding: 20px 23px;
+    background-color: #8dd83d;
+    color: #fff;
+    border-radius: 4px;
+   }
+   .footer{
+       display: flex;
+       list-style: none;
+       justify-content: space-between;
+       margin-bottom: 70px;
+   }
+   .footer-item{
+       font-weight: 400;
+        font-size: 16px;
+        line-height: 1.15;
+        color: #fff;
+   }
+   footer{
+    background: #373A3C;
+    padding-top: 58px;
+    padding-bottom: 38px;
+   }
+   .footer-list{
+       list-style: none;
+       
+   }
+   .footer-list h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.15;
+    color: #8dd83d;
+    margin-bottom: 34px;
+   }
+   .footer-list li:not(:last-child){
+       margin-bottom: 29px;
+   }
+   .end{
+       display: flex;
+       justify-content: space-between;
+       color: #FFF;
+   }
+  
